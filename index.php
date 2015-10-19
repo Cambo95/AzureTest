@@ -5,9 +5,14 @@
         <body>
             <p>
                 <?php
-                    $myname = "Frodo Baggins";
-                    $myage = 111;
-                    echo "My name is" . $myname . "and I am" . $myage;
+                    $myname = "Edgar";
+
+                    if ($myname == "Simon"){
+                        print "I know you!";
+                    }
+                    else{
+                        print "who are you?";
+                    }
                 ?>
             </p>
         </body>
