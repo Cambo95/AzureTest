@@ -5,13 +5,20 @@
         <body>
             <p>
                 <?php
-                    $myname = "Edgar";
+                    $numberOfHobbits = 2;
 
-                    if ($myname == "Simon"){
-                        print "I know you!";
-                    }
-                    else{
-                        print "who are you?";
+                    switch ($numberOfHobbits){
+                        case 1:
+                            echo "1 sad hobbit";
+                            break;
+                        case 2:
+                            echo "2 happy hobbits";
+                            break;
+                        case 3:
+                            echo "3 hobbits are a crowd";
+                            break;
+                        default:
+                            echo "All the hobbits have gone home";
                     }
                 ?>
             </p>
